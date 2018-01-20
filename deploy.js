@@ -3,7 +3,7 @@ const Web3 = require('web3');
 const {interface, bytecode} = require('./compile');
 
 const provider = new HDWalletProvider(
-  'wallet seed',
+  'seed',
   'https://rinkeby.infura.io/iMNns7UcKJg4o7FcCUWC'
 );
 

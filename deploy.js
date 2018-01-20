@@ -3,7 +3,7 @@ const Web3 = require('web3');
 const {interface, bytecode} = require('./compile');
 
 const provider = new HDWalletProvider(
-  'junior elevator parade vault tube potato rebuild weekend stable kite water jelly',
+  'wallet seed',
   'https://rinkeby.infura.io/iMNns7UcKJg4o7FcCUWC'
 );
 
